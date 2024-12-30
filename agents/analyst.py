@@ -12,7 +12,8 @@ class AnalystAgent:
     def __init__(self, name: str, focus: str):
         self.agent = AssistantAgent(
             name=name,
-            system_message=f"""You are an expert financial analyst focusing on {focus}. Analyze the provided data and provide a summary.
+            system_message=f"""
+            You are an expert financial analyst focusing on {focus}. Analyze the provided data and provide a summary.
             Focus on:
             1. Key insights
             2. Current market position
